@@ -6,5 +6,21 @@
     <description>DEV update feed. No installable updates have been published.</description>
     <language>en</language>
     <!-- Unsigned bootstrap only. Publish real items with the trusted release signer. -->
+    <!--
+      Pending release supplied by the maintainer; not an active update item.
+      Verify the package environment and anonymous download access, then fill in
+      CFBundleVersion, byte length and the trusted EdDSA signature before enabling.
+      Sign the completed feed with the DEV release key before publishing.
+
+      <item>
+        <title>Novie 0.1.16 (arm64)</title>
+        <sparkle:shortVersionString>0.1.16</sparkle:shortVersionString>
+        <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+        <enclosure
+          url="https://github.com/Novamind-Labs-Ltd/Novie_CP_daemon/releases/download/v0.1.16/Novie-0.1.16-arm64.dmg"
+          type="application/octet-stream"
+        />
+      </item>
+    -->
   </channel>
 </rss>

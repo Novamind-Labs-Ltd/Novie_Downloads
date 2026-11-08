@@ -44,6 +44,16 @@ Git 中的文件与 GitHub Release 附件是两份独立的内容。提交或推
 
 清单和它指向的安装包都需要允许最终用户访问。把公开清单指向私有源码仓库的 Release 附件，不能让无权限用户下载该附件。
 
+## 当前 DEV 待发布条目
+
+已将维护者提供的 `v0.1.16` ARM64 安装包地址登记到 [dev/appcast.xml](dev/appcast.xml) 的注释草稿中：
+
+```text
+https://github.com/Novamind-Labs-Ltd/Novie_CP_daemon/releases/download/v0.1.16/Novie-0.1.16-arm64.dmg
+```
+
+该条目暂不对客户端生效。启用前需核实包内环境、实际 `CFBundleVersion`、文件字节数、匿名下载权限和安装包更新签名，并对完成的清单签名。URL 和文件名本身不能证明它是 DEV 构建，也不能替代这些信息；若附件需要仓库权限，应先将包发布到本公开下载仓库并更新链接。
+
 ## 发布顺序
 
 1. 构建并验证对应环境的安装包，完成代码签名、公证和更新签名。
