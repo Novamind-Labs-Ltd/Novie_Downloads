@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Novie UAT Updates</title>
+    <link>https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases</link>
+    <description>UAT update feed. No installable updates have been published.</description>
+    <language>en</language>
+    <!-- Unsigned bootstrap only. Publish real items with the trusted release signer. -->
+  </channel>
+</rss>
