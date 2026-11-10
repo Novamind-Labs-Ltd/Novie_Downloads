@@ -10,7 +10,7 @@ uat/appcast.xml    UAT 更新清单
 prod/appcast.xml   PROD 更新清单
 ```
 
-当前三份 XML 都是**未签名的空占位清单**，没有可安装的版本条目。它们用于初始化仓库结构，尚不能作为正式升级源使用。
+DEV 提供已签名的更新清单。UAT 和 PROD 目录保留各自的空占位清单。
 
 ## 仓库文件和客户端更新地址
 
@@ -44,15 +44,9 @@ Git 中的文件与 GitHub Release 附件是两份独立的内容。提交或推
 
 清单和它指向的安装包都需要允许最终用户访问。把公开清单指向私有源码仓库的 Release 附件，不能让无权限用户下载该附件。
 
-## 当前 DEV 待发布条目
+## 当前 DEV 版本
 
-已将维护者提供的 `v0.1.16` ARM64 安装包地址登记到 [dev/appcast.xml](dev/appcast.xml) 的注释草稿中：
-
-```text
-https://github.com/Novamind-Labs-Ltd/Novie_CP_daemon/releases/download/v0.1.16/Novie-0.1.16-arm64.dmg
-```
-
-该条目暂不对客户端生效。启用前需核实包内环境、实际 `CFBundleVersion`、文件字节数、匿名下载权限和安装包更新签名，并对完成的清单签名。URL 和文件名本身不能证明它是 DEV 构建，也不能替代这些信息；若附件需要仓库权限，应先将包发布到本公开下载仓库并更新链接。
+Novie Control DEV 0.1.19 适用于 macOS 14 或更高版本的 Apple Silicon Mac。安装包和校验和在 [DEV 0.1.19 Release](https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/tag/dev-v0.1.19) 下载，客户端从固定的 DEV 入口读取签名清单。
 
 ## 发布顺序
 
@@ -65,7 +59,5 @@ https://github.com/Novamind-Labs-Ltd/Novie_CP_daemon/releases/download/v0.1.16/N
 首次托管时，在 GitHub 的 Releases 页面选择 **Draft a new release**，创建通道 Tag，并将 `appcast.xml` 上传至附件区域后发布。后续以同一附件名替换该通道的清单。不要仅将下载链接粘贴进 Release 的说明文本。
 
 **固定通道附件必须允许更新。** 如果仓库对新 Release 启用了 Immutable releases，发布后的附件不能替换；不要发布会被锁定的通道清单。应先将清单托管改为 GitHub Pages 或其他支持更新的固定入口，并同步修改客户端配置。安装包的版本 Release 可以保持不可变。
-
-本次初始化不创建远程 Release、不上传附件，也不宣布任何 APP 版本可供自动升级。后续需由发布流程接通清单生成、签名和上传。
 
 参考：[Sparkle 发布文档](https://sparkle-project.org/documentation/publishing/)、[GitHub Release 管理](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)、[GitHub 不可变 Release](https://docs.github.com/en/code-security/concepts/supply-chain-security/immutable-releases)。

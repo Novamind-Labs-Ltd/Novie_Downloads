@@ -1,26 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <title>Novie DEV Updates</title>
-    <link>https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases</link>
-    <description>DEV update feed. No installable updates have been published.</description>
+    <title>Novie Control DEV Updates</title>
+    <link>https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/tag/dev-updates</link>
+    <description>Signed Novie Control DEV updates for macOS.</description>
     <language>en</language>
-    <!-- Unsigned bootstrap only. Publish real items with the trusted release signer. -->
-    <!--
-      Pending release supplied by the maintainer; not an active update item.
-      Verify the package environment and anonymous download access, then fill in
-      CFBundleVersion, byte length and the trusted EdDSA signature before enabling.
-      Sign the completed feed with the DEV release key before publishing.
-
-      <item>
-        <title>Novie 0.1.16 (arm64)</title>
-        <sparkle:shortVersionString>0.1.16</sparkle:shortVersionString>
-        <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-        <enclosure
-          url="https://github.com/Novamind-Labs-Ltd/Novie_CP_daemon/releases/download/v0.1.16/Novie-0.1.16-arm64.dmg"
-          type="application/octet-stream"
-        />
-      </item>
-    -->
+    <item>
+      <title>Novie Control DEV 0.1.19</title>
+      <pubDate>Tue, 10 Nov 2026 06:19:00 GMT</pubDate>
+      <description>The tray update button is labeled Version Upgrade.</description>
+      <sparkle:channel>dev</sparkle:channel>
+      <sparkle:version>0.1.19</sparkle:version>
+      <sparkle:shortVersionString>0.1.19</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/download/dev-v0.1.19/Novie-0.1.19-arm64.dmg" length="27045107" type="application/octet-stream" sparkle:edSignature="M2shY1RWui9IVwQyDiwpSHtXi6iLLPlgc6jorEY4N8Ert6ccvet65s5pw9C504sBjAWKDp/yLfNwustkZCSeBA=="></enclosure>
+    </item>
   </channel>
-</rss>
+</rss><!-- sparkle-signatures:
+edSignature: X3Z+6oxnud62x631pNGJ2b6CQM4LKaWGP7/Mmb6aproiCvokD9mZsK4pN2fWaLd5wIiZYh63c8r49ZGBHOlhCQ==
+length: 1472
+-->
