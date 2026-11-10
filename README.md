@@ -46,7 +46,7 @@ Git 中的文件与 GitHub Release 附件是两份独立的内容。提交或推
 
 ## 当前 DEV 版本
 
-Novie Control DEV 0.1.19 适用于 macOS 14 或更高版本的 Apple Silicon Mac。安装包和校验和在 [DEV 0.1.19 Release](https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/tag/dev-v0.1.19) 下载，客户端从固定的 DEV 入口读取签名清单。
+Novie Control DEV 0.1.21 适用于 macOS 14 或更高版本的 Apple Silicon Mac。安装包和校验和在 [DEV 0.1.21 Release](https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/tag/dev-v0.1.21) 下载，客户端从固定的 DEV 入口读取签名清单。
 
 ## 发布顺序
 
