@@ -7,6 +7,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Signed UAT updates for Novie Control on macOS.</description>
     <language>en</language>
     <item>
+      <title>Novie Control UAT 0.0.131</title>
+      <pubDate>Tue, 10 Nov 2026 21:46:58 GMT</pubDate>
+      <sparkle:channel>uat</sparkle:channel>
+      <sparkle:version>0.0.131</sparkle:version>
+      <sparkle:shortVersionString>0.0.131</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/download/uat-v0.0.131/Novie-0.0.131-arm64.dmg" length="27653555" type="application/octet-stream" sparkle:edSignature="kHE81btxoL7LvLK4PfQiZXsEgcNBIa/rqTbE80AZAIjkn6sw61+tiX8zW2ThXunB67viR/94AIrQxTTjMFtnDw=="></enclosure>
+    </item>
+    <item>
       <title>Novie Control UAT 0.0.129</title>
       <pubDate>Tue, 10 Nov 2026 21:20:34 GMT</pubDate>
       <sparkle:channel>uat</sparkle:channel>
@@ -38,6 +48,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 9BruQeP95p0qVtC1HUrgPj7zACZD3vgPDOnh8du1cyOnjDh80i7r3FP0UBC0t6+9uQkWsexjg3h+PtxqHVjIBg==
-length: 2868
+edSignature: GRN3CYKw2QGAbCJYYI2iAviGuBgmb//yhFyH0R/ufI7atwUDBV5b8KGMs9Yk6bGEnVYirUNHMyx2oE2NGL+NAg==
+length: 3608
 -->
