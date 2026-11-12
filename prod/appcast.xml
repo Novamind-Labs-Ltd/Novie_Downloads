@@ -7,6 +7,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Novie Control updates for PROD.</description>
     <language>en</language>
     <item>
+      <title>Novie Control PROD 1.0.4</title>
+      <pubDate>Wed, 11 Nov 2026 23:44:44 GMT</pubDate>
+      <sparkle:channel>prod</sparkle:channel>
+      <sparkle:version>1.0.4</sparkle:version>
+      <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/download/prod-v1.0.4/Novie-1.0.4-arm64.dmg" length="27654033" type="application/octet-stream" sparkle:edSignature="37KvvQGVWgfOVvxgqSXnuU9Ej1JR9vnIq3NGidTVlCrP+DS/LoMiVZ5aho1EjG5PRHADVciuxvIJ6S+RkznqAw=="></enclosure>
+    </item>
+    <item>
       <title>Novie Control PROD 1.0.2</title>
       <pubDate>Wed, 11 Nov 2026 22:52:02 GMT</pubDate>
       <sparkle:channel>prod</sparkle:channel>
@@ -28,6 +38,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Vpa8MwuJC4H6/lNiIU3keTjs7xlOHV7VS9QcOUNWzz7KmGZlo+Hl/8bCt2I0BtSd95x8AlrC9XxdsZ1Lf+wrDQ==
-length: 2084
+edSignature: CdysKQy0Zvm6bZnMGTR9VcHFK5KzLKdarKmyRP2Ucy7nZqC5DTW2B5tGGc6zn1/eTmm3D95V59ZOPRQBhGyrCA==
+length: 2817
 -->
