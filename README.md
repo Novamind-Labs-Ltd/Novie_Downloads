@@ -46,7 +46,13 @@ Git 中的文件与 GitHub Release 附件是两份独立的内容。提交或推
 
 ## 当前 DEV 版本
 
-Novie Control DEV 1.0.5 适用于 macOS 14 或更高版本的 Apple Silicon Mac。安装包和校验和在 [DEV 1.0.5 Release](https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/tag/dev-v1.0.5) 下载，客户端从固定的 DEV 入口读取签名清单。
+Novie Desktop APP DEV 1.0.11 适用于 macOS 14 或更高版本的 Apple Silicon Mac。这是首次更改应用包名的版本，请使用已下载的签名并公证的 DEV 1.0.11 DMG 手动升级。
+
+1. 退出旧版，在 Finder 中将「应用程序」里的 `Novie Control.app` 移到废纸篓，保留旧包以便回退。
+2. 打开 DMG，将 `Novie Desktop APP.app` 拖到「应用程序」，再从那里打开。
+3. 如需回退，退出新版，将新版移到废纸篓，再将旧版放回「应用程序」并打开。升级和回退时都使用 Finder 移动应用，保留设备绑定和本地数据。
+
+旧客户端继续从固定 DEV 入口读取原有签名清单。
 
 ## 发布顺序
 
