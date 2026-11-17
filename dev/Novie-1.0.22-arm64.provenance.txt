@@ -1,0 +1,5 @@
+artifact_state=notarized-stapled
+source_sha=6af50d694b21a248b679205cd71bcd78ec8bfa50
+workflow_sha=6af50d694b21a248b679205cd71bcd78ec8bfa50
+version=1.0.22
+environment=dev

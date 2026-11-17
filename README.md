@@ -10,7 +10,7 @@ uat/appcast.xml    UAT 更新清单
 prod/appcast.xml   PROD 更新清单
 ```
 
-DEV 提供已签名的更新清单。UAT 和 PROD 目录保留各自的空占位清单。
+DEV、UAT 和 PROD 分别维护各自的签名更新清单，签名身份与客户端所选环境一致。
 
 ## 仓库文件和客户端更新地址
 
@@ -44,9 +44,13 @@ Git 中的文件与 GitHub Release 附件是两份独立的内容。提交或推
 
 清单和它指向的安装包都需要允许最终用户访问。把公开清单指向私有源码仓库的 Release 附件，不能让无权限用户下载该附件。
 
-## 当前 DEV 版本
+## DEV 1.0.22 本地发布资料
 
-Novie Control DEV 1.0.5 适用于 macOS 14 或更高版本的 Apple Silicon Mac。安装包和校验和在 [DEV 1.0.5 Release](https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/tag/dev-v1.0.5) 下载，客户端从固定的 DEV 入口读取签名清单。
+Novie Desktop APP DEV 1.0.22 适用于 macOS 14 或更高版本的 Apple Silicon Mac，已完成代码签名、公证和实机登录验收。该版本使用新的 DEV Control Plane 和 Ingest 域名；旧域名绑定需要通过应用重新配对。详情见 [1.0.22 发布说明](dev/Novie-1.0.22-release-notes.md)。
+
+本地 `dev/` 中已补齐 `Novie-1.0.22-arm64.dmg`、[SHA-256 校验文件](dev/Novie-1.0.22-arm64.dmg.sha256)和[来源记录](dev/Novie-1.0.22-arm64.provenance.txt)。DMG 作为本地待发布的 Release 附件保存；清单、校验文件、来源记录和发布说明提交至 Git。已有 1.0.23 条目及本地制品继续保留。
+
+本次完成本地发布准备。1.0.22 的目标版本标签为 `dev-v1.0.22`，公开下载及自动更新是否生效，以对应 GitHub Release 和 `dev-updates` 通道附件的发布状态为准。
 
 ## 发布顺序
 
@@ -59,5 +63,11 @@ Novie Control DEV 1.0.5 适用于 macOS 14 或更高版本的 Apple Silicon Mac�
 首次托管时，在 GitHub 的 Releases 页面选择 **Draft a new release**，创建通道 Tag，并将 `appcast.xml` 上传至附件区域后发布。后续以同一附件名替换该通道的清单。不要仅将下载链接粘贴进 Release 的说明文本。
 
 **固定通道附件必须允许更新。** 如果仓库对新 Release 启用了 Immutable releases，发布后的附件不能替换；不要发布会被锁定的通道清单。应先将清单托管改为 GitHub Pages 或其他支持更新的固定入口，并同步修改客户端配置。安装包的版本 Release 可以保持不可变。
+
+## appcast 条目保留规则
+
+每个 `appcast.xml` 最多保留 20 个 `<item>`。超过上限时，按带时区的 `pubDate` 筛选最新 20 条，删除最旧的条目。新增或裁剪完成后，对发生修改的完整清单使用对应环境的签名身份重新签名，并验证安装包签名、清单签名和条目数。
+
+本地安装包清理与清单历史独立：发布条目按上述 20 条规则保留。本次检查结果为 DEV 11 条、UAT 11 条、PROD 3 条，均未超限。
 
 参考：[Sparkle 发布文档](https://sparkle-project.org/documentation/publishing/)、[GitHub Release 管理](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)、[GitHub 不可变 Release](https://docs.github.com/en/code-security/concepts/supply-chain-security/immutable-releases)。

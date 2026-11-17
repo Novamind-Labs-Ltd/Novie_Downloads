@@ -7,6 +7,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Signed Novie Control DEV updates for macOS.</description>
     <language>en</language>
     <item>
+      <title>Novie Desktop APP DEV 1.0.23</title>
+      <pubDate>Tue, 17 Nov 2026 22:00:32 GMT</pubDate>
+      <sparkle:channel>dev</sparkle:channel>
+      <sparkle:version>1.0.23</sparkle:version>
+      <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/download/dev-v1.0.23/Novie-1.0.23-arm64.dmg" length="46451202" type="application/octet-stream" sparkle:edSignature="N8CyXniUd3Nrk+mTh7oUQ5upiKqjAozinByTSm/DJ0osAj7akYiVXR/7FxeqxGiBwptBiMPMYPCQ2C1Xo3eTBQ=="></enclosure>
+    </item>
+    <item>
+      <title>Novie Desktop APP DEV 1.0.22</title>
+      <pubDate>Tue, 17 Nov 2026 21:38:03 GMT</pubDate>
+      <description>DEV service origins now use control.api.novamind-labs.co.nz and ingest.api.novamind-labs.co.nz. Devices paired to the retired Control Plane origin must start a new pairing.</description>
+      <sparkle:channel>dev</sparkle:channel>
+      <sparkle:version>1.0.22</sparkle:version>
+      <sparkle:shortVersionString>1.0.22</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/download/dev-v1.0.22/Novie-1.0.22-arm64.dmg" length="46417796" type="application/octet-stream" sparkle:edSignature="U/fsF5lGqBcPWkf+Pm88Ba7OgOGRKUoMJLFyKQC1hSi+GiwP3F28v3pIu4PGjkC3cYmxgqf3DnqNHEE/HV+uBQ=="></enclosure>
+    </item>
+    <item>
       <title>Novie Desktop APP DEV 1.0.21</title>
       <pubDate>Tue, 17 Nov 2026 20:14:51 GMT</pubDate>
       <sparkle:channel>dev</sparkle:channel>
@@ -100,6 +121,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: aBDg7zzF8TL725NMDgeNeZOIwhQllGVp7eByTAD7rwX4kyPJ7gZzAwic0dJk+/ECKrybif3zdXuoXoMrs11CBw==
-length: 7467
+edSignature: vhPPmK6lZKHC4Lv8EMIgVvi2uazysBESQDWGaptG2SKPr2J0B8eurv8cdrKbnNvj1r0N5TXNSa+5qSFh9vwMDg==
+length: 9151
 -->
