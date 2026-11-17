@@ -7,6 +7,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Signed Novie Control DEV updates for macOS.</description>
     <language>en</language>
     <item>
+      <title>Novie Desktop APP DEV 1.0.21</title>
+      <pubDate>Tue, 17 Nov 2026 20:14:51 GMT</pubDate>
+      <sparkle:channel>dev</sparkle:channel>
+      <sparkle:version>1.0.21</sparkle:version>
+      <sparkle:shortVersionString>1.0.21</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/download/dev-v1.0.21/Novie-1.0.21-arm64.dmg" length="46430783" type="application/octet-stream" sparkle:edSignature="epjxLvSe3/NR7cGSjd3TSTP62px5IOkZuKRpv5Hup5ICk0yGVr8EGA/sC+slylljj9pZNr8/d9Op3v0U6IgPCw=="></enclosure>
+    </item>
+    <item>
       <title>Novie Desktop APP DEV 1.0.20</title>
       <pubDate>Tue, 17 Nov 2026 09:02:23 GMT</pubDate>
       <sparkle:channel>dev</sparkle:channel>
@@ -90,6 +100,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: N/0hdcQNrsLPcWBWPdvkQg5QUXl3zzqaMf3WiEXvqNc7pQWv2VUhbKq9CpBuhPgjj4DlTYoaO+dF4h3ODw/VDw==
-length: 6728
+edSignature: aBDg7zzF8TL725NMDgeNeZOIwhQllGVp7eByTAD7rwX4kyPJ7gZzAwic0dJk+/ECKrybif3zdXuoXoMrs11CBw==
+length: 7467
 -->
