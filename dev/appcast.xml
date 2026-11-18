@@ -7,6 +7,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Signed Novie Control DEV updates for macOS.</description>
     <language>en</language>
     <item>
+      <title>Novie Desktop APP DEV 1.0.28</title>
+      <pubDate>Wed, 18 Nov 2026 07:51:39 GMT</pubDate>
+      <description>Desktop status labels, connector descriptions and recovery notices consistently use Observing. Internal protocol values, telemetry reporting and Copilot monitor-only behavior are unchanged.</description>
+      <sparkle:channel>dev</sparkle:channel>
+      <sparkle:version>1.0.28</sparkle:version>
+      <sparkle:shortVersionString>1.0.28</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/download/dev-v1.0.28/Novie-1.0.28-arm64.dmg" length="46509206" type="application/octet-stream" sparkle:edSignature="mRpdTHHwEpeyHMfRa8YOxSN3Hmi7pe98tVz6BQuhg862AOb1HCxKWG0vNbGZMzcbJfTAcjAyjfMDZe4O4BvrBQ=="></enclosure>
+    </item>
+    <item>
       <title>Novie Desktop APP DEV 1.0.27</title>
       <pubDate>Wed, 18 Nov 2026 05:25:03 GMT</pubDate>
       <description>Prepared updates resume when Novie becomes idle, using interaction events and a thirty-second fallback only while an eligible update remains pending. Version-check cadence and installation verification are preserved.</description>
@@ -165,6 +176,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: QCg9wciMb6edI0Hpos2Z1SJUKlrtCQggk9O51RnbMgsbKs47OM1myY6UtGNhMF2HjhotYYOQYqLfjiL6j6UuAg==
-length: 13091
+edSignature: Qey1fYpBFRcKNduOwvitIxcTIlW+CxGBCzmoLdvwAw1gv7kWfeD9KjmuWW7yR4mUEbAm0szFgwyIBamGa6R/AQ==
+length: 14053
 -->
