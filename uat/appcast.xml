@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Signed UAT updates for Novie Control on macOS.</description>
     <language>en</language>
     <item>
+      <title>Novie Desktop APP UAT 1.0.11</title>
+      <pubDate>Wed, 18 Nov 2026 20:22:40 GMT</pubDate>
+      <description>UAT test build from feat/daemon-memory-hooks-zcb, source 8e28f01. Includes session-bound company Memory, workload selection and diagnostics.</description>
+      <sparkle:channel>uat</sparkle:channel>
+      <sparkle:version>1.0.11</sparkle:version>
+      <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/download/uat-v1.0.11/Novie-1.0.11-arm64.dmg" length="46683251" type="application/octet-stream" sparkle:edSignature="JwhINVnetddVq3R00Qn0IzxiP2URRvsEwKYkW2wcmOcFjdi1Qhwtr3b4K2QtJpLA3BtVYwzwrq7IrArwmROcBQ=="></enclosure>
+    </item>
+    <item>
+      <title>Novie Desktop APP UAT 1.0.10</title>
+      <pubDate>Wed, 18 Nov 2026 03:22:55 GMT</pubDate>
+      <description>UAT test build from feat/daemon-memory-hooks-zcb source 8e28f01. Includes session-bound company Memory, workload selection and diagnostics with the current main lifecycle and updater changes.</description>
+      <sparkle:channel>uat</sparkle:channel>
+      <sparkle:version>1.0.10</sparkle:version>
+      <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/download/uat-v1.0.10/Novie-1.0.10-arm64.dmg" length="46683233" type="application/octet-stream" sparkle:edSignature="z+dZj9+3VatdiwcFqj5h/9XXLwjAVgV4V19FV4XmarXwV1x5UzfciF+hySgcuPWIfmr7WOr9VntdMX1iKhDADA=="></enclosure>
+    </item>
+    <item>
       <title>Novie Control UAT 1.0.9</title>
       <pubDate>Sat, 14 Nov 2026 00:00:01 GMT</pubDate>
       <sparkle:channel>uat</sparkle:channel>
@@ -118,6 +140,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: OXVnRZFF6mfTCqqwUECT2tTADauFff+s0S7wTqnSa+RhAcO15SW1e8zkEJhvlwh4SqUachnase7K7mHwM9yJCg==
-length: 8718
+edSignature: 2n8hlFtiLAdjCmi5zuJ1UhHcaF9vHeq4fF0GOiEaW6gK3C1erHLDJbwaAyHw0SQmmnywVU5AErxRv8OHkqPsCw==
+length: 10595
 -->
