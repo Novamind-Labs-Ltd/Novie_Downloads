@@ -7,6 +7,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Signed Novie Control DEV updates for macOS.</description>
     <language>en</language>
     <item>
+      <title>Novie Desktop APP DEV 1.0.30</title>
+      <pubDate>Wed, 18 Nov 2026 20:43:08 GMT</pubDate>
+      <description>Development build of the Memory Hooks feature integrated with main: session-bound workload selection and diagnostics, consistent Observing copy, and prepared-update idle-event recovery with a thirty-second fallback.</description>
+      <sparkle:channel>dev</sparkle:channel>
+      <sparkle:version>1.0.30</sparkle:version>
+      <sparkle:shortVersionString>1.0.30</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/download/dev-v1.0.30/Novie-1.0.30-arm64.dmg" length="46719184" type="application/octet-stream" sparkle:edSignature="AmIQXfbhwdLtaeHoAmVvzP40j69PSF+PtxNxEwkqiac6H/SC1p/TonDDJ82yilDqJy1RXOadNk577F5o9XvKCg=="></enclosure>
+    </item>
+    <item>
       <title>Novie Desktop APP DEV 1.0.29</title>
       <pubDate>Wed, 18 Nov 2026 08:36:56 GMT</pubDate>
       <description>Development build from feat/daemon-memory-hooks-zcb (8e28f01), including immutable session-bound Memory workload selection, in-conversation choices and bounded workload-refresh diagnostics. The package uses the approved DEV endpoints and trusted signing workflow.</description>
@@ -187,6 +198,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: SahcZqsEf5AOX/pLqRY0vbLr3thPv8l0S3ZzcU0aiAetXag/WMuh5iI25V8b/9KmOee0uEOf0AKQZ5dlbedhDA==
-length: 15089
+edSignature: 7Y+2mPctDWsPAGlaVfWoZZeqQzb8IhMvl+xoNjN1Gp9fa7aKj7GEBP+/f1JxEYQV2JUSXoaA0a3OlFsjfaJiCA==
+length: 16077
 -->
