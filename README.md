@@ -10,7 +10,7 @@ uat/appcast.xml    UAT 更新清单
 prod/appcast.xml   PROD 更新清单
 ```
 
-DEV 提供已签名的更新清单。UAT 和 PROD 目录保留各自的空占位清单。
+各环境使用独立的签名更新清单，发布状态以对应的 `appcast.xml` 和版本 Release 为准。
 
 ## 仓库文件和客户端更新地址
 
@@ -46,7 +46,7 @@ Git 中的文件与 GitHub Release 附件是两份独立的内容。提交或推
 
 ## 当前 DEV 版本
 
-Novie Control DEV 1.0.5 适用于 macOS 14 或更高版本的 Apple Silicon Mac。安装包和校验和在 [DEV 1.0.5 Release](https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/tag/dev-v1.0.5) 下载，客户端从固定的 DEV 入口读取签名清单。
+Novie Desktop APP DEV 1.0.28 适用于 macOS 14 或更高版本的 Apple Silicon Mac。此版本统一 Observing 状态文案，保留内部协议值与实际数据上报行为。安装包、校验和和来源记录在 [DEV 1.0.28 Release](https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/tag/dev-v1.0.28) 下载，客户端从固定的 DEV 入口读取签名清单。
 
 ## 发布顺序
 
