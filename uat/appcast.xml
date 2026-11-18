@@ -7,6 +7,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Signed UAT updates for Novie Control on macOS.</description>
     <language>en</language>
     <item>
+      <title>Novie Desktop APP UAT 1.0.13</title>
+      <pubDate>Wed, 18 Nov 2026 21:50:02 GMT</pubDate>
+      <description>Built from the rebased feat/daemon-memory-hooks-zcb branch at source 39d3cc4. Includes session-bound company Memory, workload selection and diagnostics, plus fifteen-minute UAT checks and independent DEV/UAT check timestamps.</description>
+      <sparkle:channel>uat</sparkle:channel>
+      <sparkle:version>1.0.13</sparkle:version>
+      <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/download/uat-v1.0.13/Novie-1.0.13-arm64.dmg" length="46716838" type="application/octet-stream" sparkle:edSignature="ulOjY8ruSGjIdE8Y7HNwvolu5UsQbVtmPo3JaLeWZHhnnbJiwlSOTNvuFGMnTraHZxqC5VZ/EPU0Kv/c/Wy8Ag=="></enclosure>
+    </item>
+    <item>
       <title>Novie Desktop APP UAT 1.0.12</title>
       <pubDate>Wed, 18 Nov 2026 21:06:55 GMT</pubDate>
       <description>UAT and DEV now check on fifteen-minute scheduled wakes, keep separate check timestamps and refresh older background Workers. Built from a new main-based branch, source 4812d8f.</description>
@@ -151,6 +162,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: HEnaBUugxh2ZEdR0L2aSNgQGr86o0LLBL8BKfBotyHPCYNQHG2jAWrKHgkFBDrNmYBPTO31XF8MZdTDdpPkoBQ==
-length: 11545
+edSignature: rcnjzAPUui8tGFynymud5N77YgjafXOtieH0Vm3P6YLS/5SBrFInNcLz2Dfn3b91mSoXGPZ6vCfQlFSJDX1UDg==
+length: 12543
 -->
