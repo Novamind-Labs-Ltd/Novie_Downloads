@@ -7,6 +7,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Signed Novie Control DEV updates for macOS.</description>
     <language>en</language>
     <item>
+      <title>Novie Desktop APP DEV 1.0.25</title>
+      <pubDate>Wed, 18 Nov 2026 01:53:57 GMT</pubDate>
+      <description>Upgraded installations automatically attempt Background Agent setup once on their first manual opening, including 1.0.24 installations previously skipped. macOS approval, later inactive choices and background-update participation are preserved.</description>
+      <sparkle:channel>dev</sparkle:channel>
+      <sparkle:version>1.0.25</sparkle:version>
+      <sparkle:shortVersionString>1.0.25</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/download/dev-v1.0.25/Novie-1.0.25-arm64.dmg" length="46463949" type="application/octet-stream" sparkle:edSignature="tKWjcHn6J9Tw9Vs0wgCl5CGu5eRhh3S2uRZtxIv/vJgheAd5YEwmjN4kSuHeVjaR9JSF0HydDrLzJd1gwckBBQ=="></enclosure>
+    </item>
+    <item>
       <title>Novie Desktop APP DEV 1.0.24</title>
       <pubDate>Wed, 18 Nov 2026 00:26:36 GMT</pubDate>
       <description>The first eligible foreground launch automatically enables the Background Agent. Existing inactive choices, system approval, manual retry and background-update participation are preserved.</description>
@@ -132,6 +143,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: jo6XYCazbXKttVg7XvOMekYoM8g15F+szcUD9+TegbA/KdnO+4ZZ/WiRouu0ANQgILEe8+i9RHAKcICib0lQBQ==
-length: 10112
+edSignature: 8h0R5N4yffXE+wPTzgsUA4Pxdrk0RSb8Nks2TBIOOIbeufjnTGW3t3GpBkAyVw+HScj2eLqEHzQYLhOMoH/+DQ==
+length: 11129
 -->
