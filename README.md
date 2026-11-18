@@ -46,7 +46,7 @@ Git 中的文件与 GitHub Release 附件是两份独立的内容。提交或推
 
 ## 当前 DEV 版本
 
-Novie Desktop APP DEV 1.0.28 适用于 macOS 14 或更高版本的 Apple Silicon Mac。此版本统一 Observing 状态文案，保留内部协议值与实际数据上报行为。安装包、校验和和来源记录在 [DEV 1.0.28 Release](https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/tag/dev-v1.0.28) 下载，客户端从固定的 DEV 入口读取签名清单。
+Novie Desktop APP DEV 1.0.29 适用于 macOS 14 或更高版本的 Apple Silicon Mac。此测试包从 `feat/daemon-memory-hooks-zcb` 的 `8e28f01` 构建，包含会话绑定的 Memory Workload 选择和诊断，保留该分支现有的界面与更新逻辑。安装包、校验和和来源记录在 [DEV 1.0.29 Release](https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/tag/dev-v1.0.29) 下载，客户端从固定的 DEV 入口读取签名清单。
 
 ## 发布顺序
 

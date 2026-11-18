@@ -7,6 +7,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Signed Novie Control DEV updates for macOS.</description>
     <language>en</language>
     <item>
+      <title>Novie Desktop APP DEV 1.0.29</title>
+      <pubDate>Wed, 18 Nov 2026 08:36:56 GMT</pubDate>
+      <description>Development build from feat/daemon-memory-hooks-zcb (8e28f01), including immutable session-bound Memory workload selection, in-conversation choices and bounded workload-refresh diagnostics. The package uses the approved DEV endpoints and trusted signing workflow.</description>
+      <sparkle:channel>dev</sparkle:channel>
+      <sparkle:version>1.0.29</sparkle:version>
+      <sparkle:shortVersionString>1.0.29</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/download/dev-v1.0.29/Novie-1.0.29-arm64.dmg" length="46683125" type="application/octet-stream" sparkle:edSignature="hm2JKuYBG6GVo+Ic1tIG1ckIMOLjrNiha8WGfwG2mHMaP3x1jS/pj74VU5Xqv+Qyfcjd2Su6wf+sd2e4hybqCQ=="></enclosure>
+    </item>
+    <item>
       <title>Novie Desktop APP DEV 1.0.28</title>
       <pubDate>Wed, 18 Nov 2026 07:51:39 GMT</pubDate>
       <description>Desktop status labels, connector descriptions and recovery notices consistently use Observing. Internal protocol values, telemetry reporting and Copilot monitor-only behavior are unchanged.</description>
@@ -176,6 +187,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Qey1fYpBFRcKNduOwvitIxcTIlW+CxGBCzmoLdvwAw1gv7kWfeD9KjmuWW7yR4mUEbAm0szFgwyIBamGa6R/AQ==
-length: 14053
+edSignature: SahcZqsEf5AOX/pLqRY0vbLr3thPv8l0S3ZzcU0aiAetXag/WMuh5iI25V8b/9KmOee0uEOf0AKQZ5dlbedhDA==
+length: 15089
 -->
