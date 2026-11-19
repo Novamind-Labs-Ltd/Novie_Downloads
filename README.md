@@ -50,9 +50,9 @@ Novie Desktop APP DEV 1.0.30 适用于 macOS 14 或更高版本的 Apple Silicon
 
 ## 当前 UAT 版本
 
-Novie Desktop APP UAT 1.0.16 适用于 macOS 14 或更高版本的 Apple Silicon Mac。此包从 `feat/daemon-memory-hooks-zcb` 的 `6516492` 构建，包含 Memory Hooks、工作区选择、诊断和 Observing 文案，并保留定时唤醒后继续检查更新的修复。
+Novie Desktop APP UAT 1.0.17 适用于 macOS 14 或更高版本的 Apple Silicon Mac。此包从 `feat/daemon-memory-hooks-zcb` 的 `1300d23` 构建，包含 Memory Hooks、工作区选择、诊断和 Observing 文案，并加入 DEV 与 UAT 更新状态隔离及成功卸载后的更新目录清理。
 
-安装包、校验和和来源记录见 [UAT 1.0.16 Release](https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/tag/uat-v1.0.16)。如果旧 UAT 版本的定时检查已经停滞，请手动安装签名包一次以启用修复，之后使用现有后台更新计划。
+安装包、校验和和来源记录见 [UAT 1.0.17 Release](https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/tag/uat-v1.0.17)。如果旧 UAT 版本的定时检查已经停滞，请手动安装签名包一次以启用修复，之后使用现有后台更新计划。
 
 ## 发布顺序
 

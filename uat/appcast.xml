@@ -7,6 +7,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Signed UAT updates for Novie Control on macOS.</description>
     <language>en</language>
     <item>
+      <title>Novie Desktop APP UAT 1.0.17</title>
+      <pubDate>Thu, 19 Nov 2026 20:15:09 GMT</pubDate>
+      <description>Includes Memory Hooks, isolated DEV and UAT update state, and cleanup of updater files after uninstall.</description>
+      <sparkle:channel>uat</sparkle:channel>
+      <sparkle:version>1.0.17</sparkle:version>
+      <sparkle:shortVersionString>1.0.17</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/download/uat-v1.0.17/Novie-1.0.17-arm64.dmg" length="46915937" type="application/octet-stream" sparkle:edSignature="YzktTL3AXxtgo4kvfoe0H2rEFhZZk7A2doR+eGmRVJnMcpflB4/HFKAQEDZ43aVTJL2/m58b5NDOj7/ugGbHDw=="></enclosure>
+    </item>
+    <item>
       <title>Novie Desktop APP UAT 1.0.16</title>
       <pubDate>Thu, 19 Nov 2026 02:12:56 GMT</pubDate>
       <description>Includes Memory Hooks, workload selection, diagnostics, and the scheduled UAT update check fix.</description>
@@ -195,6 +206,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: oXMIvhO/HVNce6/wJd3lwzlnrpvqYr50EblDlHxXfsMw7/yLoIzvDX7Srya0dBfgVFd3YUN57KjsIjlPJYuPDQ==
-length: 15372
+edSignature: iiInIEat9PblLDXsiCoqfYkMqWMUD0pdQGDSvMQX7R52+gisAMGAH5dwYGq8c2FcctHCt4xPjTg+uqf/AbRGBQ==
+length: 16248
 -->
