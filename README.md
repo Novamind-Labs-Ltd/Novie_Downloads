@@ -48,6 +48,12 @@ Git 中的文件与 GitHub Release 附件是两份独立的内容。提交或推
 
 Novie Desktop APP DEV 1.0.30 适用于 macOS 14 或更高版本的 Apple Silicon Mac。此测试包从已合入最新 main 的 `feat/daemon-memory-hooks-zcb` 提交 `1ca4825` 构建，包含会话绑定的 Memory Workload 选择、设置和诊断、统一的 Observing 文案，以及主线的闲置事件更新恢复和 30 秒待更新回退检查。安装包、校验和和来源记录在 [DEV 1.0.30 Release](https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/tag/dev-v1.0.30) 下载，客户端从固定的 DEV 入口读取签名清单。
 
+## 当前 UAT 版本
+
+Novie Desktop APP UAT 1.0.15 适用于 macOS 14 或更高版本的 Apple Silicon Mac。此包从保留 Memory Hooks 的集成提交 `36909ff` 构建，包含 Observing 文案，并修复定时唤醒后没有实际检查更新的问题。已在正常安装后完成连续两轮自然十五分钟更新检查，保留现有设置、更新许可和 Agent 参与状态。
+
+安装包、校验和和来源记录见 [UAT 1.0.15 Release](https://github.com/Novamind-Labs-Ltd/Novie_Downloads/releases/tag/uat-v1.0.15)。如果旧 UAT 版本的定时检查已经停滞，请手动安装此签名包一次以启用修复；之后使用现有后台更新计划。
+
 ## 发布顺序
 
 1. 构建并验证对应环境的安装包，完成代码签名、公证和更新签名。
